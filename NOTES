@@ -1,0 +1,4 @@
+./real_time.pl -type=asmiostat -show=inst,dbinst -sort_field=reads
+./real_time.pl -type=asmiostat -show=inst,dbinst,dg,fg -dg=DATAP -dbinst='%NOP%'
+ASMIOSTAT Script to collect iostats for ASM disks (Doc ID 437996.1)
+https://drive.google.com/drive/folders/0B7Jf_4JdsptpRHdyOWk1VTdUdEU?resourcekey=0-vA74mUXemK_PK3Hp61CISQ
